@@ -2,4 +2,4 @@
 
 print("Do not use the program yet! We are currently under developement.")
 print("We thank you for your patience.")
-print("Best regards, THE BURIAL PROGRAM//")
+print("Best regards, THE BURIAL //PROGRAM//")
