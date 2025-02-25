@@ -1,5 +1,6 @@
 Hello! Welcome to the BURIAL program! We will walk you through everything you need to know.
 
+NOTE: Sadly, our decrypter has been deleted. This will take a while to re-make. Our apologies.
 -------------------------------------------------------------------------------------------------------------------
 
 WHO WE ARE:
