@@ -1,0 +1,4 @@
+#this file will take you tough everyhting you need to know to setup BURIAL. (It's really easy.)
+import time
+
+print("//currently under progress// (we reccomend to wait for this file to be complete before setting up to tool yourself. you could potentially break the tool.")
