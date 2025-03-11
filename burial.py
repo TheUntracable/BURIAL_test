@@ -62,12 +62,12 @@ print(f"{GREEN}               |      \\  |       |  |        \\   | |  |      | 
 print(f"{GREEN}               |      |  |       |  |        |   | |  |      |  |         ")
 print(f"{GREEN}               |______/   \\______/  |        |   |_|  |      |  |______   ")
 print(f"{GREEN}                                                                  ")
-print(f"{YELLOW}                                                {UNDERLINE}v.1.0.  -  pre-release{RESET}")
+print(f"{YELLOW}                                                {UNDERLINE}v.1.0.1.  -  pre-release{RESET}")
 print(f"{YELLOW}                                                {UNDERLINE}made by TheUntracable{RESET}")
 time.sleep(7)
 print("         ")
 time.sleep(0.6)
-print(f"              -- [+] \033[4mSTARTING UP MACHINE   -   v.1.0 pre-release\033[0m [+] -- ")
+print(f"              -- [+] \033[4mSTARTING UP MACHINE   -   v.1.0.1 pre-release\033[0m [+] -- ")
 time.sleep(5)
 
 
