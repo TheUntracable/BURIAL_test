@@ -11,6 +11,7 @@ YELLOW = "\033[33m"
 RESET = "\033[0m"
 UNDERLINE = "\033[4m"
 BOLD = "\033[1m"
+BLINK = "\033[5m"
 
 print(f"[+] Do not use the program yet! We are currently under developement.")
 time.sleep(2)
@@ -63,7 +64,7 @@ print(f"{GREEN}               |      \\  |       |  |        \\   | |  |      | 
 print(f"{GREEN}               |      |  |       |  |        |   | |  |      |  |         ")
 print(f"{GREEN}               |______/   \\______/  |        |   |_|  |      |  |______   ")
 print(f"{GREEN}                                                                  ")
-print(f"{YELLOW}                                                {UNDERLINE}v.1.0.1.  -  pre-release{RESET}")
+print(f"{YELLOW}                                                {BLINK}{UNDERLINE}v.1.0.1.  -  pre-release{RESET}")
 print(f"{YELLOW}                                                {UNDERLINE}made by TheUntracable{RESET}")
 time.sleep(7)
 print("         ")
